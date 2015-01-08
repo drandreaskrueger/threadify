@@ -42,7 +42,8 @@ The **first real world application** is included: an **async webpage downloader*
 @license:  Never remove my name, nor the examples - and send me job offers.  
 @todo:     I am poor, send bitcoins: 1CV2YwBeATZfYHVZgjrgupgw5zxf1Q36CU Thx! 
 
+@note:     tested on Python 2.7.5  
 @requires: threadify_examples.py, threadified.py, threadify.py  
-@note:     tested on Python 2.7.5
+
 
 
