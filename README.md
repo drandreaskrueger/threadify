@@ -6,10 +6,13 @@ Threading made easy! Wraps any function so that it can be run in parallel thread
 
 @details
 
-Automatically **creates threads** with 
-    myFunc(arg,**kwargs)
+    resultsList = threadify.getThreaded ( identifierArgs, myFunc, **kwargs )
+    
+automatically **creates threads** with 
 
- for each 'arg' in 'identifierArgs' by threadifying it = Exceptions are caught (returned back as a result), and if no exception was thrown, the function result is returned back. 
+    myFunc( arg, **kwargs )
+
+for each 'arg' in 'identifierArgs' by threadifying it = Exceptions are caught (returned back as a result) ... and if no exception was thrown, the function result is returned back. 
 
 'identifierArg' must be a list, the elements do not need to be unique.
 
