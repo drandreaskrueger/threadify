@@ -6,9 +6,10 @@ Threading made easy! Wraps any function so that it can be run in parallel thread
 
 @details
 
-Calls 'myFunc(arg,**kwargs)' for each 'arg' in 'identifierArgs' by threadifying it 
+Automatically **creates threads** with 
+    myFunc(arg,**kwargs)
 
-= Exceptions are caught (returned back as a result), and if no exception was thrown, the function result is returned back. 
+ for each 'arg' in 'identifierArgs' by threadifying it = Exceptions are caught (returned back as a result), and if no exception was thrown, the function result is returned back. 
 
 'identifierArg' must be a list, the elements do not need to be unique.
 
@@ -16,10 +17,11 @@ Calls 'myFunc(arg,**kwargs)' for each 'arg' in 'identifierArgs' by threadifying 
 
 When all threads have finished, the resulting LIST contains **tuples (identifier arg, myFunc result OR exception thrown)** with len(resultList) == len(identifierArg).
 
-The 'helper functions' in 'threadified.py' extract sublists depending on success. 
+The **'helper functions' in 'threadified.py'** extract sublists depending on success. 
 
-Examples in 'threadify_examples.py' show many details how to use this.
+**Examples in 'threadify_examples.py'** show many details how to use this.
 
+The **first real world application** is included: an **async webpage downloader**.
 
 @contact:  python (at) AndreasKrueger (dot) de
 @since:    7 Jan 2015
