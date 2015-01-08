@@ -34,6 +34,14 @@ The **first real world application** is included: an **async webpage downloader*
 
 - - -
 
+### @quickstart
+Get an account at https://www.pythonanywhere.com ... Start a new console ... Bash ... then copypaste this:
+
+    git clone https://github.com/drandreaskrueger/threadify.git
+    cd threadify
+    python threadify_examples.py 
+    
+
 ### @human
 
 @contact:  python (at) AndreasKrueger (dot) de  
