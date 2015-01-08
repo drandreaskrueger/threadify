@@ -44,7 +44,7 @@ Get an account at https://www.pythonanywhere.com ... Start a new console ... Bas
 
 ### @human
 
-@contact:  python (at) AndreasKrueger (dot) de  
+@contact:  python (at) AndreasKrueger (dot) de   
 @since:    7 Jan 2015
 
 @license:  Never remove my name, nor the examples - and send me job offers.  
