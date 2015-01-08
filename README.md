@@ -8,7 +8,7 @@ Threading made easy! Wraps any function so that it can be run in parallel thread
 
     resultsList = threadify.getThreaded ( identifierArgs, myFunc, **kwargs )
     
-automatically **creates threads** with 
+automatically **creates threads** from 
 
     myFunc ( arg, **kwargs )
 
@@ -20,7 +20,7 @@ for each 'arg' in 'identifierArgs' by threadifying it = Exceptions are caught (r
 
 ### @results 
 
-    list of tuples ( arg, result OR exception )
+    resultsList = list of tuples ( arg, result OR exception )
 
 When all threads have finished, the resulting LIST contains **tuples (identifier arg, myFunc result OR exception thrown)** with len(resultList) == len(identifierArgs).
 
@@ -34,13 +34,15 @@ The **first real world application** is included: an **async webpage downloader*
 
 - - -
 
+### @human
+
 @contact:  python (at) AndreasKrueger (dot) de  
 @since:    7 Jan 2015
 
 @license:  Never remove my name, nor the examples - and send me job offers.  
 @todo:     I am poor, send bitcoins: 1CV2YwBeATZfYHVZgjrgupgw5zxf1Q36CU Thx! 
 
-@requires: threadify_examples.py, threadified.py  
+@requires: threadify_examples.py, threadified.py, threadify.py  
 @note:     tested on Python 2.7.5
 
 
