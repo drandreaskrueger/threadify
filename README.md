@@ -1,10 +1,10 @@
 # threadify.py = Threadification of ANY function!
 
-@summary 
+### @summary 
 
 Threading made easy! Wraps any function so that it can be run in parallel threads. Calls the wrapped function with each of the given arguments, and returns all results, once all threads have finished. Core code is very short, and easy to understand. Good examples are given. 
 
-@details
+### @details
 
     resultsList = threadify.getThreaded ( identifierArgs, myFunc, **kwargs )
     
@@ -20,7 +20,7 @@ for each 'arg' in 'identifierArgs' by threadifying it = Exceptions are caught (r
 
 @results 
 
-When all threads have finished, the resulting LIST contains **tuples (identifier arg, myFunc result OR exception thrown)** with len(resultList) == len(identifierArg).
+When all threads have finished, the resulting LIST contains **tuples (identifier arg, myFunc result OR exception thrown)** with len(resultList) == len(identifierArgs).
 
 The **'helper functions' in 'threadified.py'** extract sublists depending on success. 
 
