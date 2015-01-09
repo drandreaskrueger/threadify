@@ -19,6 +19,10 @@ threadified.py - Helper functions, and real world uses of
    depending on success / exception. 
 
 Examples in 'threadify_examples.py' show many details how to use this.
+
+See my github For feature requests, ideas, suggestions, appraisal, criticism:
+@issues https://github.com/drandreaskrueger/threadify/issues
+@wiki https://github.com/drandreaskrueger/threadify/wiki 
 '''
 
 # for easier import:

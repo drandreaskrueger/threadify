@@ -17,6 +17,10 @@ threadify_examples.py - application of, and examples for
            Self-explaining examples:
            1) Download many webpages in parallel. Useful!
            2) Watch threads working. While they sleep.
+           
+See my github For feature requests, ideas, suggestions, appraisal, criticism:
+@issues https://github.com/drandreaskrueger/threadify/issues
+@wiki https://github.com/drandreaskrueger/threadify/wiki 
 '''
 
 import threadify, threadified

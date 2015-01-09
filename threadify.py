@@ -28,6 +28,10 @@ contains tuples (identifier arg, myFunc result OR exception thrown).
 
 The 'helper functions' in 'threadified.py' give sublists depending on success.
 Examples in 'threadify_examples.py' show many details how to use this.
+
+See my github For feature requests, ideas, suggestions, appraisal, criticism:
+@issues https://github.com/drandreaskrueger/threadify/issues
+@wiki https://github.com/drandreaskrueger/threadify/wiki 
 '''
     
 # for easier import:
