@@ -82,7 +82,7 @@ def testAsyncDownload_speedComparison(urls, **kwargs):
     Second part: comparing speed of async (threaded) version 
                  with classical (blocking) version.
     """
-    urls = urls * 9
+    urls = urls * 8
     
     print "\nFor %d page download attempts" % len(urls), 
     s1 = t() 
