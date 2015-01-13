@@ -82,7 +82,7 @@ def testAsyncDownload_speedComparison(urls, **kwargs):
     Second part: comparing speed of async (threaded) version 
                  with classical (blocking) version.
     """
-    urls = urls * 25
+    urls = urls * 5
     
     print "\nFor %d page download attempts" % len(urls), 
     s1 = t() 
@@ -218,9 +218,7 @@ def testGetThreaded(numberOfSleepers = 5):
 
 # End of example 2
  
- 
-
-if __name__ == "__main__":
+def run_examples():
     print "\n************ threadify.py = Threadification of ANY function!"
     
     testGetPagesAndAnalyze()
@@ -231,4 +229,7 @@ if __name__ == "__main__":
        
     print "\n************ The end. ************************************\n"
     print "Please send me your success stories with threadify. Enjoy your day :-)\n"
-    
+ 
+
+if __name__ == "__main__":
+    run_examples()
