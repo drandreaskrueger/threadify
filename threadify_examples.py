@@ -113,7 +113,7 @@ def testGetPagesAndAnalyze(**kwargs):
     
     print "\n************ Example 1: WebPages Downloader ************\n"
     testAsyncDownload_resultHelpers(urls, **kwargs)
-    testAsyncDownload_speedComparison(urls, 8, **kwargs)
+    testAsyncDownload_speedComparison(urls, 7, **kwargs)
 
 # End of example 1
 
