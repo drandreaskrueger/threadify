@@ -145,11 +145,11 @@ def testSleepAction(arg, sleeplong=1, yell = " "):
     
     time.sleep(sleeplong * snores[0] )
     print "chrrrr(%d)..." % arg,
-    sys.stdout.flush() 
+    sys.stdout.flush() # to print this immediately
     
     time.sleep(sleeplong * (snores[1] - snores[0]))
     print "puehhh(%d)..." % arg,
-    sys.stdout.flush() 
+    sys.stdout.flush() # to print this immediately
     
     time.sleep(sleeplong * (1 - snores[1]))
     wakeupMsg = "Good Morning%ssays %s" % \
