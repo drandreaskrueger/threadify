@@ -76,13 +76,13 @@ def testAsyncDownload_resultHelpers(urls, **kwargs):
                            for arg, res in results])
         
 
-def testAsyncDownload_speedComparison(urls, **kwargs):
+def testAsyncDownload_speedComparison(urls, multiplier, **kwargs):
     """
     Tests with threadified webpage downloader.
     Second part: comparing speed of async (threaded) version 
                  with classical (blocking) version.
     """
-    urls = urls * 8
+    urls = urls * multiplier
     
     print "\nFor %d page download attempts" % len(urls), 
     s1 = t() 
@@ -113,7 +113,7 @@ def testGetPagesAndAnalyze(**kwargs):
     
     print "\n************ Example 1: WebPages Downloader ************\n"
     testAsyncDownload_resultHelpers(urls, **kwargs)
-    testAsyncDownload_speedComparison(urls, **kwargs)
+    testAsyncDownload_speedComparison(urls, 8, **kwargs)
 
 # End of example 1
 
