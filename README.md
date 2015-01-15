@@ -33,10 +33,9 @@ The **'helper functions' in 'threadified.py'** extract sublists depending on suc
 The **first real world application** is included: an **async webpage downloader**.
 
 ### @quickstart
-Most of what I intend to show you, you can already see in this [PythonAnywhere GIST console](https://www.pythonanywhere.com/gists/0b8b58a0ddb88afaa43f/gistfile1.txt/python2/) (running live!) 
-which executes a [GIST file] (https://gist.github.com/anonymous/0b8b58a0ddb88afaa43f).
+You see the examples running live(!) in this [PythonAnywhere GIST console](https://www.pythonanywhere.com/gists/0b8b58a0ddb88afaa43f/gistfile1.txt/python2/) which executes a [GIST file] (https://gist.github.com/anonymous/0b8b58a0ddb88afaa43f).
 
-The second example included might show the inside of the threads better if downloaded into your own console:  
+Or you download and run it like this:  
 
     git clone https://github.com/drandreaskrueger/threadify.git
     cd threadify
