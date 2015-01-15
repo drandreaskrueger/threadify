@@ -24,7 +24,7 @@ See my github For feature requests, ideas, suggestions, appraisal, criticism:
 '''
 
 import threadify, threadified
-import threading, exceptions
+import threading, exceptions, sys
 
 try: import urllib.request as urllib2 # for compatibility with python 3
 except: import urllib2
@@ -145,9 +145,11 @@ def testSleepAction(arg, sleeplong=1, yell = " "):
     
     time.sleep(sleeplong * snores[0] )
     print "chrrrr(%d)..." % arg,
+    sys.stdout.flush() 
     
     time.sleep(sleeplong * (snores[1] - snores[0]))
     print "puehhh(%d)..." % arg,
+    sys.stdout.flush() 
     
     time.sleep(sleeplong * (1 - snores[1]))
     wakeupMsg = "Good Morning%ssays %s" % \
