@@ -71,8 +71,8 @@ def testAsyncDownload_resultHelpers(urls, **kwargs):
         print "were none. Your internet is broken?"
     else:
         print "resulted in page downloads",
-        print "with these lengths, and first 80 characters:"
-        print "\n".join(  ["%s (len=%5d): %s  ..." % (arg, len(res), cleaner(res)[:80]  ) 
+        print "with these lengths, and first 70 characters:"
+        print "\n".join(  ["%s (len=%5d): %s  ..." % (arg, len(res), cleaner(res)[:70]  ) 
                            for arg, res in results])
         
 
@@ -113,7 +113,7 @@ def testGetPagesAndAnalyze(**kwargs):
     
     print "\n************ Example 1: WebPages Downloader ************\n"
     testAsyncDownload_resultHelpers(urls, **kwargs)
-    testAsyncDownload_speedComparison(urls, 7, **kwargs)
+    testAsyncDownload_speedComparison(urls, 6, **kwargs)
 
 # End of example 1
 
