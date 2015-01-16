@@ -229,7 +229,8 @@ def run_examples():
     
     testGetThreaded (numberOfSleepers = 6)
        
-    print "\n************ The end. ************************************\n"
+    print "\n********************** The end. ************************************\n"
+    print "     https://github.com/drandreaskrueger/threadify"
     print "Please send me your success stories with threadify. Enjoy your day :-)\n"
  
 
